@@ -1,0 +1,87 @@
+<!-- App -->
+<div id="root" class="my-5"></div>
+
+<!-- Explanation -->
+<div class="container mb-5">
+  <p class="lead font-italic">
+    View this app's source on
+    <a
+      href="https://github.com/tywmick/markdown-previewer"
+      target="_blank"
+      rel="noopener"
+      >GitHub</a
+    >
+    or
+    <a
+      href="https://codepen.io/tywmick/pen/PoYeapB"
+      target="_blank"
+      rel="noopener"
+      >CodePen</a
+    >.
+  </p>
+
+  <h1>Markdown previewer</h1>
+
+  <p>
+    I created this app in fulfillment of
+    <a href="https://freecodecamp.org" target="_blank" rel="noopener"
+      >freeCodeCamp</a
+    >'s Front End Libraries Project
+    <a
+      href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer"
+      target="_blank"
+      rel="noopener"
+      >Build a Markdown Previewer</a
+    >, using
+    <a href="https://reactjs.org/" target="_blank" rel="noopener">React</a>,
+    <a href="https://getbootstrap.com/" target="_blank" rel="noopener"
+      >Bootstrap</a
+    >, and
+    <a href="https://marked.js.org/" target="_blank" rel="noopener">Marked</a>.
+    It fulfills the following user stories:
+  </p>
+
+  <ol>
+    <li>
+      I can see a <code>textarea</code> element with a corresponding
+      <code>id="editor"</code>.
+    </li>
+    <li>
+      I can see an element with a corresponding <code>id="preview"</code>.
+    </li>
+    <li>
+      When I enter text into the <code>#editor</code> element, the
+      <code>#preview</code> element is updated as I type to display the content
+      of the textarea.
+    </li>
+    <li>
+      When I enter GitHub flavored markdown into the
+      <code>#editor</code> element, the text is rendered as HTML in the
+      <code>#preview</code> element as I type (HINT: You don't need to parse
+      Markdown yourself - you can import the Marked library for this:
+      <a
+        href="https://cdnjs.com/libraries/marked"
+        target="_blank"
+        rel="noopener"
+        >https://cdnjs.com/libraries/marked</a
+      >).
+    </li>
+    <li>
+      When my markdown previewer first loads, the default text in the
+      <code>#editor</code> field should contain valid markdown that represents
+      at least one of each of the following elements: a header (H1 size), a sub
+      header (H2 size), a link, inline code, a code block, a list item, a
+      blockquote, an image, and bolded text.
+    </li>
+    <li>
+      When my markdown previewer first loads, the default markdown in the
+      <code>#editor</code> field should be rendered as HTML in the
+      <code>#preview</code> element.
+    </li>
+    <li>
+      <strong>Optional Bonus (you do not need to make this test pass):</strong>
+      My markdown previewer interprets carriage returns and renders them as
+      <code>br</code> (line break) elements.
+    </li>
+  </ol>
+</div>
